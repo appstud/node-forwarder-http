@@ -21,7 +21,7 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "eventemitter3": "^3.0.0"
+    "eventemitter3": "^4.0.4"
   },
   "devDependencies": {
     "chai": "^4.0.0",

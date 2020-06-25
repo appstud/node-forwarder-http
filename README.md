@@ -1,7 +1,21 @@
 # Forwarder HTTP
 
-[![Build
-Status](https://travis-ci.org/radiofrance/node-forwarder-http.svg?branch=master)](https://travis-ci.org/radiofrance/node-forwarder-http)
+### graciously forked from https://github.com/radiofrance/node-forwarder-http
+
+## How to use
+
+Dockerfile included :
+
+`docker build . -t webhook-forwarder`
+
+Docker compose file available, just clone this repository, change the exposed port in docker-compose.yml if necessary.
+
+## How to configure 
+
+Edit the `config.json` file with the local port and your targets
+
+
+# Original README :
 
 ```forwarder-http``` is a HTTP/HTTPS forwarder. On each request it :
 

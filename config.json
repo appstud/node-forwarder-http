@@ -1,0 +1,7 @@
+{
+  "port": "9000",
+  "targets": [
+    "https://127.0.0.1:8080"
+  ],
+  "allowedEndpoints": []
+}
